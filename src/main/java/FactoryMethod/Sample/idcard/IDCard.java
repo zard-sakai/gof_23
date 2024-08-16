@@ -1,5 +1,6 @@
 package FactoryMethod.Sample.idcard;
-import framework.*;
+
+import FactoryMethod.Sample.framework.Product;
 
 public class IDCard extends Product {
     private String owner;

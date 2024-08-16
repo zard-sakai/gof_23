@@ -11,7 +11,6 @@
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Composite" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Decorator" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Facade" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/FactoryMethod" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Flyweight" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Interpreter" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Mediator" />

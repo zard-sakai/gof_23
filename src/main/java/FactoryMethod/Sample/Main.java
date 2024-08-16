@@ -1,7 +1,8 @@
 package FactoryMethod.Sample;
 
-import framework.*;
-import idcard.*;
+import FactoryMethod.Sample.framework.Factory;
+import FactoryMethod.Sample.framework.Product;
+import FactoryMethod.Sample.idcard.IDCardFactory;
 
 public class Main {
     public static void main(String[] args) {

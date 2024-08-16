@@ -1,5 +1,7 @@
 package FactoryMethod.Sample.idcard;
-import framework.*;
+import FactoryMethod.Sample.framework.Factory;
+import FactoryMethod.Sample.framework.Product;
+
 import java.util.*;
 
 public class IDCardFactory extends Factory {

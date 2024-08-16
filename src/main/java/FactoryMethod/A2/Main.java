@@ -1,7 +1,9 @@
 package FactoryMethod.A2;
 
-import framework.*;
-import idcard.*;
+
+import FactoryMethod.A2.framework.Factory;
+import FactoryMethod.A2.framework.Product;
+import FactoryMethod.A2.idcard.IDCardFactory;
 
 public class Main {
     public static void main(String[] args) {
