@@ -1,6 +1,4 @@
-package Iterator.A1;
-
-import java.util.*;
+package Iterator.gill;
 
 public class Main {
     public static void main(String[] args) {

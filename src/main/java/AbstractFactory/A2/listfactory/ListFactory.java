@@ -1,5 +1,9 @@
 package AbstractFactory.A2.listfactory;
-import factory.*;
+
+import AbstractFactory.A2.factory.Factory;
+import AbstractFactory.A2.factory.Link;
+import AbstractFactory.A2.factory.Page;
+import AbstractFactory.A2.factory.Tray;
 
 public class ListFactory extends Factory {
     public Link createLink(String caption, String url) {

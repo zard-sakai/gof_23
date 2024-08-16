@@ -1,8 +1,5 @@
 package Iterator.A1;
 
-import Iterator.Sample.Aggregate;
-import Iterator.Sample.Book;
-
 import java.util.ArrayList;
 
 public class BookShelf implements Aggregate {
@@ -10,8 +7,8 @@ public class BookShelf implements Aggregate {
     public BookShelf(int initialsize) {         
         this.books = new ArrayList(initialsize);   
     }                                           
-    public Iterator.Sample.Book getBookAt(int index) {
-        return (Iterator.Sample.Book)books.get(index);
+    public Book getBookAt(int index) {
+        return (Book)books.get(index);
     }
     public void appendBook(Book book) {
         books.add(book);                        
@@ -19,7 +16,7 @@ public class BookShelf implements Aggregate {
     public int getLength() {
         return books.size();                    
     }
-    public Iterator.Sample.Iterator iterator() {
+    public Iterator iterator() {
         return new BookShelfIterator(this);
     }
 }
