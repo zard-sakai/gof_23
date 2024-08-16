@@ -1,0 +1,16 @@
+package Adapter.Sample1;
+
+import Adapter.Sample2.Banner;
+import Adapter.Sample2.Print;
+
+public class PrintBanner extends Banner implements Print {
+    public PrintBanner(String string) {
+        super(string);
+    }
+    public void printWeak() {
+        showWithParen();
+    }
+    public void printStrong() {
+        showWithAster();
+    }
+}
