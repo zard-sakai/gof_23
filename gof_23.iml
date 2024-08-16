@@ -22,7 +22,6 @@
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Singleton" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/State" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Strategy" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/TemplateMethod/Sample" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Visitor" />
     </content>
   </component>

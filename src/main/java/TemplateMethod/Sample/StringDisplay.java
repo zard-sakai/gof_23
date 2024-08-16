@@ -4,7 +4,7 @@ public class StringDisplay extends AbstractDisplay {    // StringDisplay也是Ab
     private String string;                              // 需要显示的字符串
     private int width;                                  // 以字节为单位计算出的字符串长度
     public StringDisplay(String string) {               // 构造函数中接收的字符串被
-        this.string = string;                           // 保存在字段中
+        this.string = string;                           // 保存在字段 中
         this.width = string.getBytes().length;          // 同时将字符串的字节长度也保存在字段中，以供后面使用 
     }
     public void open() {                                // 重写的open方法
