@@ -7,6 +7,6 @@ public class Main {
             Triple triple = Triple.getInstance(i % 3);
             System.out.println(i + ":" + triple);
         }
-        System.out.println("End.");
+        System.out.println("End. ");
     }
 }
