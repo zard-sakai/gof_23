@@ -1,6 +1,6 @@
 package Builder.A2;
 
-public class TextBuilder extends Builder.A3.Builder {
+public class TextBuilder extends Builder {
     private StringBuffer buffer = new StringBuffer();           // 文档内容保存在该字段中 
     protected void buildTitle(String title) {                       // 纯文本的标题
         buffer.append("==============================\n");          // 装饰线

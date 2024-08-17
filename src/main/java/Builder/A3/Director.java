@@ -1,8 +1,8 @@
 package Builder.A3;
 
 public class Director {
-    private Builder.A4.Builder builder;
-    public Director(Builder.A4.Builder builder) {              // 因为接收的参数是Builder类的子类
+    private Builder builder;
+    public Director(Builder builder) {              // 因为接收的参数是Builder类的子类
         this.builder = builder;                     // 所以可以将其保存在builder字段中
     }
     public void construct() {                       // 编写文档

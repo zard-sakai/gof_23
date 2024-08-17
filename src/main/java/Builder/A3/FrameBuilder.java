@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 
-public class FrameBuilder extends Builder.A4.Builder implements ActionListener {
+public class FrameBuilder extends Builder implements ActionListener {
     private JFrame frame = new JFrame();
     private Box box = new Box(BoxLayout.Y_AXIS);
     public void makeTitle(String title) {

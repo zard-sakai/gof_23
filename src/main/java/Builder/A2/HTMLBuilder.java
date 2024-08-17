@@ -2,7 +2,7 @@ package Builder.A2;
 
 import java.io.*;
 
-public class HTMLBuilder extends Builder.A3.Builder {
+public class HTMLBuilder extends Builder {
     private String filename;                                    // 文件名
     private PrintWriter writer;                                 // 用于编写文件的PrintWriter
     protected void buildTitle(String title) {                       // HTML文件的标题
