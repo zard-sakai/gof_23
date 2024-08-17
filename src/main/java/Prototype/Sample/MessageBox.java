@@ -1,6 +1,6 @@
 package Prototype.Sample;
 
-import framework.*;
+import Prototype.Sample.framework.Product;
 
 public class MessageBox implements Product {
     private char decochar;

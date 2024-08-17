@@ -1,6 +1,8 @@
 package Prototype.Sample;
 
-import framework.*;
+
+import Prototype.Sample.framework.Manager;
+import Prototype.Sample.framework.Product;
 
 public class Main {
     public static void main(String[] args) {

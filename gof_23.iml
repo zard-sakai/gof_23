@@ -16,7 +16,6 @@
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Mediator" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Memento" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Observer" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/Prototype/Sample" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Proxy" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/State" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Strategy" />
