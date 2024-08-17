@@ -1,5 +1,11 @@
 package AbstractFactory.A2.tablefactory;
-import factory.*;
+
+
+import AbstractFactory.A2.factory.Link;
+import AbstractFactory.A2.factory.Page;
+import AbstractFactory.A2.factory.Tray;
+import FactoryMethod.A2.framework.Factory;
+import FactoryMethod.A2.framework.Product;
 
 public class TableFactory extends Factory {
     public Link createLink(String caption, String url) {
@@ -10,5 +16,15 @@ public class TableFactory extends Factory {
     }
     public Page createPage(String title, String author) {
         return new TablePage(title, author);
+    }
+
+    @Override
+    protected Product createProduct(String owner) {
+        return null;
+    }
+
+    @Override
+    protected void registerProduct(Product product) {
+
     }
 }

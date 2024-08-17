@@ -1,5 +1,8 @@
 package AbstractFactory.Sample.tablefactory;
-import factory.*;
+
+import AbstractFactory.Sample.factory.Item;
+import AbstractFactory.Sample.factory.Page;
+
 import java.util.Iterator;
 
 public class TablePage extends Page {

@@ -1,5 +1,7 @@
 package AbstractFactory.Sample.listfactory;
-import factory.*;
+import AbstractFactory.Sample.factory.Item;
+import AbstractFactory.Sample.factory.Tray;
+
 import java.util.Iterator;
 
 public class ListTray extends Tray {

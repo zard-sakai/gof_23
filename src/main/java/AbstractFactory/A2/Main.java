@@ -1,6 +1,8 @@
 package AbstractFactory.A2;
 
-import factory.*;
+
+import AbstractFactory.A2.factory.Factory;
+import AbstractFactory.A2.factory.Page;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package AbstractFactory.Sample.listfactory;
-import factory.*;
+import AbstractFactory.Sample.factory.Item;
+import AbstractFactory.Sample.factory.Page;
+
 import java.util.Iterator;
 
 public class ListPage extends Page {
