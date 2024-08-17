@@ -1,6 +1,5 @@
 package Strategy.A1;
 
-import Strategy.Sample.Hand;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class Main {
         Player player1 = new Player("Taro", new ProbStrategy(seed1));
         Player player2 = new Player("Hana", new RandomStrategy(seed2));
         for (int i = 0; i < 10000; i++) {
-            Strategy.Sample.Hand nextHand1 = player1.nextHand();
+            Hand nextHand1 = player1.nextHand();
             Hand nextHand2 = player2.nextHand();
             if (nextHand1.isStrongerThan(nextHand2)) {
                 System.out.println("Winner:" + player1);

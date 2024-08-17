@@ -1,6 +1,5 @@
 package Strategy.A1;
 
-import Strategy.Sample.Hand;
 
 public class Player {
     private String name;

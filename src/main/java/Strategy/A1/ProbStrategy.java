@@ -1,10 +1,8 @@
 package Strategy.A1;
 
-import Strategy.Sample.Hand;
-
 import java.util.Random;
 
-public class ProbStrategy implements Strategy.Sample.Strategy {
+public class ProbStrategy implements Strategy {
     private Random random;
     private int prevHandValue = 0;
     private int currentHandValue = 0;
@@ -16,7 +14,7 @@ public class ProbStrategy implements Strategy.Sample.Strategy {
     public ProbStrategy(int seed) {
         random = new Random(seed);
     }
-    public Strategy.Sample.Hand nextHand() {
+    public Hand nextHand() {
         int bet = random.nextInt(getSum(currentHandValue));
         int handvalue = 0;
         if (bet < history[currentHandValue][0]) {
