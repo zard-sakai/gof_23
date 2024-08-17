@@ -1,6 +1,5 @@
 package Bridge.A3;
 
-import Bridge.Sample.DisplayImpl;
 
 public class CharDisplayImpl extends DisplayImpl {
     private char head;

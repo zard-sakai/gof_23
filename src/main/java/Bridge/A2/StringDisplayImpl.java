@@ -1,6 +1,5 @@
 package Bridge.A2;
 
-import Bridge.A3.DisplayImpl;
 
 public class StringDisplayImpl extends DisplayImpl {
     private String string;                              // 要显示的字符串

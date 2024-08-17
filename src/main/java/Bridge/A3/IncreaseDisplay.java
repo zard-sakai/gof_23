@@ -1,7 +1,5 @@
 package Bridge.A3;
 
-import Bridge.Sample.CountDisplay;
-import Bridge.Sample.DisplayImpl;
 
 public class IncreaseDisplay extends CountDisplay {
     private int step; // 递增步长

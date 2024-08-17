@@ -1,7 +1,5 @@
 package Bridge.A3;
 
-import Bridge.Sample.Display;
-import Bridge.Sample.DisplayImpl;
 
 public class CountDisplay extends Display {
     public CountDisplay(DisplayImpl impl) {

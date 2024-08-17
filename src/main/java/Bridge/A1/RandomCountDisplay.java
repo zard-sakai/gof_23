@@ -1,7 +1,5 @@
 package Bridge.A1;
 
-import Bridge.A2.CountDisplay;
-import Bridge.A2.DisplayImpl;
 
 import java.util.Random;
 
