@@ -1,7 +1,5 @@
 package ChainOfResponsibility.A4;
 
-import ChainOfResponsibility.Sample.Support;
-import ChainOfResponsibility.Sample.Trouble;
 
 public class NoSupport extends Support {
     public NoSupport(String name) {

@@ -1,7 +1,5 @@
 package ChainOfResponsibility.A4;
 
-import ChainOfResponsibility.Sample.Support;
-import ChainOfResponsibility.Sample.Trouble;
 
 public class OddSupport extends Support {
     public OddSupport(String name) {                // 构造函数

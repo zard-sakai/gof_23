@@ -1,7 +1,5 @@
 package ChainOfResponsibility.A4;
 
-import ChainOfResponsibility.Sample.Support;
-import ChainOfResponsibility.Sample.Trouble;
 
 public class SpecialSupport extends Support {
     private int number;                                 // 只能解决指定编号的问题
