@@ -1,7 +1,5 @@
 package State.A3;
 
-import State.A4.Context;
-import State.A4.DayState;
 
 import java.awt.Frame;
 import java.awt.Label;
@@ -22,7 +20,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
     private Button buttonPhone = new Button("正常通话");    // 正常通话按钮
     private Button buttonExit = new Button("结束");         // 结束按钮
 
-    private State.A4.State state = DayState.getInstance();           // 当前的状态
+    private State state = DayState.getInstance();           // 当前的状态
 
     // 构造函数
     public SafeFrame(String title) {
@@ -80,7 +78,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         state.doClock(this, hour);
     }
     // 改变状态
-    public void changeState(State.A4.State state) {
+    public void changeState(State state) {
         System.out.println("从" + this.state + "状態变为了" + state + "状态。");
         this.state = state;
     }
