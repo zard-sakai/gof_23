@@ -1,10 +1,9 @@
 package Proxy.A1;
 
-import Proxy.Sample.Printable;
 
-public class PrinterProxy implements Proxy.Sample.Printable {
+public class PrinterProxy implements Printable {
     private String name;            // 名字
-    private Proxy.Sample.Printable real;         // “本人”
+    private Printable real;         // “本人”
     private String className;       // “本人”的类名       
     public PrinterProxy(String name, String className) {      // 构造函数     
         this.name = name;
