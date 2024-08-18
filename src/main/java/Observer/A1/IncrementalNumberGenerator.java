@@ -1,6 +1,5 @@
 package Observer.A1;
 
-import Observer.A2.NumberGenerator;
 
 public class IncrementalNumberGenerator extends NumberGenerator {
     private int number;                     // 当前数值

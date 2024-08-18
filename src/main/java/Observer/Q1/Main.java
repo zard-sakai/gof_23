@@ -1,9 +1,10 @@
 package Observer.Q1;
 
-import Observer.Sample.DigitObserver;
-import Observer.Sample.GraphObserver;
-import Observer.Sample.NumberGenerator;
-import Observer.Sample.Observer;
+import Observer.A1.DigitObserver;
+import Observer.A1.GraphObserver;
+import Observer.A1.IncrementalNumberGenerator;
+import Observer.A1.NumberGenerator;
+import Observer.A1.Observer;
 
 public class Main {
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class FrameObserver extends Frame implements Observer.Sample.Observer, ActionListener {
+public class FrameObserver extends Frame implements Observer, ActionListener {
     private GraphText textGraph = new GraphText(60);
     private GraphCanvas canvasGraph = new GraphCanvas();
     private Button buttonClose = new Button("Close");
@@ -37,7 +37,7 @@ public class FrameObserver extends Frame implements Observer.Sample.Observer, Ac
         canvasGraph.update(generator);
     }
 }
-class GraphText extends TextField implements Observer.Sample.Observer {
+class GraphText extends TextField implements Observer {
     public GraphText(int columns) {
         super(columns);
     }
@@ -50,7 +50,7 @@ class GraphText extends TextField implements Observer.Sample.Observer {
         setText(text);
     }
 }
-class GraphCanvas extends Canvas implements Observer.Sample.Observer {
+class GraphCanvas extends Canvas implements Observer {
     private int number;
     public void update(NumberGenerator generator) {
         number = generator.getNumber();

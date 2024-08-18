@@ -5,16 +5,16 @@ import java.util.Iterator;
 
 public abstract class NumberGenerator {
     private ArrayList observers = new ArrayList();        // 保存Observer们
-    public void addObserver(Observer.A2.Observer observer) {    // 注册Observer
+    public void addObserver(Observer observer) {    // 注册Observer
         observers.add(observer);
     }
-    public void deleteObserver(Observer.A2.Observer observer) { // 删除Observer
+    public void deleteObserver(Observer observer) { // 删除Observer
         observers.remove(observer);
     }
     public void notifyObservers() {               // 向Observer发送通知
         Iterator it = observers.iterator();
         while (it.hasNext()) {
-            Observer.A2.Observer o = (Observer.A2.Observer)it.next();
+            Observer o = (Observer)it.next();
             o.update(this);
         }
     }

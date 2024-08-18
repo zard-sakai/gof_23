@@ -1,7 +1,5 @@
 package Observer.A2;
 
-import Observer.Sample.NumberGenerator;
-
 import java.util.Random;
 
 public class RandomNumberGenerator extends NumberGenerator {
