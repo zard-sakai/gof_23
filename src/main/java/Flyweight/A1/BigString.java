@@ -1,10 +1,8 @@
 package Flyweight.A1;
 
-import Flyweight.A2.BigChar;
-
 public class BigString {
     // 大型文字的数组
-    private Flyweight.A2.BigChar[] bigchars;
+    private BigChar[] bigchars;
     // 构造函数
     public BigString(String string) {
         initShared(string);
@@ -19,7 +17,7 @@ public class BigString {
     }
     // 共享方式初始化
     private void initShared(String string) {
-        bigchars = new Flyweight.A2.BigChar[string.length()];
+        bigchars = new BigChar[string.length()];
         BigCharFactory factory = BigCharFactory.getInstance();
         for (int i = 0; i < bigchars.length; i++) {
             bigchars[i] = factory.getBigChar(string.charAt(i)); 
@@ -27,7 +25,7 @@ public class BigString {
     }
     // 非共享方式初始化
     private void initUnshared(String string) {
-        bigchars = new Flyweight.A2.BigChar[string.length()];
+        bigchars = new BigChar[string.length()];
         for (int i = 0; i < bigchars.length; i++) {
             bigchars[i] = new BigChar(string.charAt(i));
         }

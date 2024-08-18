@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$" dumb="true">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Command" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/Flyweight" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Interpreter" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Proxy" />
     </content>

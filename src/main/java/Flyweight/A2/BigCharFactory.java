@@ -1,6 +1,6 @@
 package Flyweight.A2;
 
-import Flyweight.Sample.BigChar;
+
 
 import java.util.HashMap;
 
@@ -17,8 +17,8 @@ public class BigCharFactory {
         return singleton;
     }
     // 生成（共享）BigChar类的实例
-    public synchronized Flyweight.Sample.BigChar getBigChar(char charname) {
-        Flyweight.Sample.BigChar bc = (Flyweight.Sample.BigChar)pool.get("" + charname);
+    public synchronized BigChar getBigChar(char charname) {
+        BigChar bc = (BigChar)pool.get("" + charname);
         if (bc == null) {
             bc = new BigChar(charname); // 生成BigChar的实例
             pool.put("" + charname, bc);
