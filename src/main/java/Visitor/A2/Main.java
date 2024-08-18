@@ -1,7 +1,5 @@
 package Visitor.A2;
 
-import Visitor.A3.File;
-
 public class Main {
     public static void main(String[] args) {
         try {
@@ -13,8 +11,8 @@ public class Main {
             rootdir.add(bindir);
             rootdir.add(tmpdir);
             rootdir.add(usrdir);
-            bindir.add(new Visitor.A3.File("vi", 10000));
-            bindir.add(new Visitor.A3.File("latex", 20000));
+            bindir.add(new File("vi", 10000));
+            bindir.add(new File("latex", 20000));
             rootdir.accept(new ListVisitor());              
 
             System.out.println("");
@@ -25,10 +23,10 @@ public class Main {
             usrdir.add(yuki);
             usrdir.add(hanako);
             usrdir.add(tomura);
-            yuki.add(new Visitor.A3.File("diary.html", 100));
-            yuki.add(new Visitor.A3.File("Composite.java", 200));
-            hanako.add(new Visitor.A3.File("memo.tex", 300));
-            tomura.add(new Visitor.A3.File("game.doc", 400));
+            yuki.add(new File("diary.html", 100));
+            yuki.add(new File("Composite.java", 200));
+            hanako.add(new File("memo.tex", 300));
+            tomura.add(new File("game.doc", 400));
             tomura.add(new File("junk.mail", 500));
             rootdir.accept(new ListVisitor());              
         } catch (FileTreatmentException e) {

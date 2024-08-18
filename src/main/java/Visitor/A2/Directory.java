@@ -1,11 +1,9 @@
 package Visitor.A2;
 
-import Visitor.A3.Entry;
-
 import java.util.Iterator;
 import java.util.ArrayList;
 
-public class Directory extends Visitor.A3.Entry {
+public class Directory extends Entry {
     private String name;                    // 文件夹名字
     private ArrayList dir = new ArrayList();      // 目录条目的集合
     public Directory(String name) {         // 构造函数
@@ -19,14 +17,14 @@ public class Directory extends Visitor.A3.Entry {
         accept(v);                          
         return v.getSize();                 
     }
-    public Visitor.A3.Entry add(Entry entry) {         // 添加目录条目
+    public Entry add(Entry entry) {         // 添加目录条目
         dir.add(entry);
         return this;
     }
     public Iterator iterator() {
         return dir.iterator();
     }
-    public void accept(Visitor.A3.Visitor v) {
+    public void accept(Visitor v) {
         v.visit(this);
     }
 }

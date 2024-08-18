@@ -13,7 +13,6 @@
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Observer" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Proxy" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/State" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/Visitor" />
     </content>
   </component>
 </module>

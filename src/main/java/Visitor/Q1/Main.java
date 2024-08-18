@@ -1,8 +1,10 @@
 package Visitor.Q1;
 
-import Visitor.Sample.Directory;
-import Visitor.Sample.File;
-import Visitor.Sample.FileTreatmentException;
+
+import Visitor.A1.Directory;
+import Visitor.A1.File;
+import Visitor.A1.FileFindVisitor;
+import Visitor.A1.FileTreatmentException;
 
 import java.util.Iterator;
 
@@ -32,7 +34,7 @@ public class Main {
             tomura.add(new File("game.doc", 400));
             tomura.add(new File("junk.mail", 500));
 
-            FileFindVisitor ffv = new FileFindVisitor(".html");     
+            FileFindVisitor ffv = new FileFindVisitor(".html");
             rootdir.accept(ffv);                                    
 
             System.out.println("HTML files are:");

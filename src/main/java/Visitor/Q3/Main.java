@@ -1,9 +1,6 @@
 package Visitor.Q3;
 
-import Visitor.Sample.Directory;
-import Visitor.Sample.File;
-import Visitor.Sample.FileTreatmentException;
-import Visitor.Sample.ListVisitor;
+import Visitor.A3.*;
 
 import java.util.Iterator;
 
