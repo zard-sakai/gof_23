@@ -6,7 +6,6 @@
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Command" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Flyweight" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Interpreter" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/Memento" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Proxy" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/State" />
     </content>

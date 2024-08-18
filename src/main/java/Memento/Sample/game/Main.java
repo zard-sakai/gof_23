@@ -1,7 +1,5 @@
-package Memento.Sample;
+package Memento.Sample.game;
 
-import game.Memento;
-import game.Gamer;
 
 public class Main {
     public static void main(String[] args) {

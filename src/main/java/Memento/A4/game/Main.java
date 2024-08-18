@@ -1,7 +1,8 @@
-package Memento.A4;
+package Memento.A4.game;
 
-import Memento.Sample.game.Memento;
-import Memento.Sample.game.Gamer;
+
+import Memento.A4.game.Gamer;
+
 import java.io.*;
 
 public class Main {
