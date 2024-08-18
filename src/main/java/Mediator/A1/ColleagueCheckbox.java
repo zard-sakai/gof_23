@@ -1,18 +1,16 @@
 package Mediator.A1;
 
-import Mediator.Sample.Colleague;
-
 import java.awt.Checkbox;
 import java.awt.CheckboxGroup;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
 
 public class ColleagueCheckbox extends Checkbox implements ItemListener, Colleague {
-    private Mediator.Sample.Mediator mediator;
+    private Mediator mediator;
     public ColleagueCheckbox(String caption, CheckboxGroup group, boolean state) {  // 构造函数 
         super(caption, group, state);
     }
-    public void setMediator(Mediator.Sample.Mediator mediator) {            // 保存Mediator
+    public void setMediator(Mediator mediator) {            // 保存Mediator
         this.mediator = mediator;
     }
     public void setColleagueEnabled(boolean enabled) {      // Mediator下达启用/禁用指示

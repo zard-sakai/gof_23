@@ -1,6 +1,5 @@
 package Mediator.A1;
 
-import Mediator.Sample.Colleague;
 
 import java.awt.TextField;
 import java.awt.Color;
@@ -8,11 +7,11 @@ import java.awt.event.TextListener;
 import java.awt.event.TextEvent;
 
 public class ColleagueTextField extends TextField implements TextListener, Colleague {
-    private Mediator.Sample.Mediator mediator;
+    private Mediator mediator;
     public ColleagueTextField(String text, int columns) {   // 构造函数
         super(text, columns);
     }
-    public void setMediator(Mediator.Sample.Mediator mediator) {            // 保存Mediator
+    public void setMediator(Mediator mediator) {            // 保存Mediator
         this.mediator = mediator;
     }
     public void setColleagueEnabled(boolean enabled) {      // Mediator下达启用/禁用的指示

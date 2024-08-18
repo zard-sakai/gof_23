@@ -4,10 +4,8 @@
     <content url="file://$MODULE_DIR$" dumb="true">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Command" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/Facade" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Flyweight" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Interpreter" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/java/Mediator" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Memento" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Observer" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/java/Proxy" />

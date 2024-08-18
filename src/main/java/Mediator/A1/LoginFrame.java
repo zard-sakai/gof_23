@@ -8,7 +8,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class LoginFrame extends Frame implements ActionListener, Mediator.Sample.Mediator {
+public class LoginFrame extends Frame implements ActionListener, Mediator {
     private ColleagueCheckbox checkGuest;
     private ColleagueCheckbox checkLogin;
     private ColleagueTextField textUser;
