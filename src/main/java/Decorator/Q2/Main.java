@@ -1,8 +1,10 @@
 package Decorator.Q2;
 
-import Decorator.Sample.Display;
-import Decorator.Sample.FullBorder;
-import Decorator.Sample.SideBorder;
+
+import Decorator.A2.Display;
+import Decorator.A2.FullBorder;
+import Decorator.A2.MultiStringDisplay;
+import Decorator.A2.SideBorder;
 
 public class Main {
     public static void main(String[] args) {

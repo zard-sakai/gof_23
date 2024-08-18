@@ -1,6 +1,5 @@
 package Composite.A2;
 
-import Composite.Sample.File;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +12,7 @@ public class Main {
             Directory yuki = new Directory("yuki");
             usrdir.add(yuki);
 
-            Composite.Sample.File file = new File("Composite.java", 100);
+            File file = new File("Composite.java", 100);
             yuki.add(file);
             rootdir.printList();
 

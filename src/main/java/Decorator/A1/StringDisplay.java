@@ -1,6 +1,5 @@
 package Decorator.A1;
 
-import Decorator.A2.Display;
 
 public class StringDisplay extends Display {
     private String string;                          // 要显示的字符串

@@ -1,9 +1,7 @@
 package Decorator.Q1;
 
-import Decorator.Sample.Display;
-import Decorator.Sample.FullBorder;
-import Decorator.Sample.SideBorder;
-import Decorator.Sample.StringDisplay;
+
+import Decorator.A1.*;
 
 public class Main {
     public static void main(String[] args) {

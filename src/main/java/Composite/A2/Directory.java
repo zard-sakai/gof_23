@@ -1,11 +1,9 @@
 package Composite.A2;
 
-import Composite.Sample.Entry;
-
 import java.util.Iterator;
 import java.util.ArrayList;
 
-public class Directory extends Composite.Sample.Entry {
+public class Directory extends Entry {
     private String name;
     private ArrayList directory = new ArrayList();
     public Directory(String name) {
@@ -18,12 +16,12 @@ public class Directory extends Composite.Sample.Entry {
         int size = 0;
         Iterator it = directory.iterator();
         while (it.hasNext()) {
-            Composite.Sample.Entry entry = (Composite.Sample.Entry)it.next();
+            Entry entry = (Entry)it.next();
             size += entry.getSize();
         }
         return size;
     }
-    public Composite.Sample.Entry add(Composite.Sample.Entry entry) {
+    public Entry add(Entry entry) {
         directory.add(entry);
         entry.parent = this;                
         return this;
@@ -32,7 +30,7 @@ public class Directory extends Composite.Sample.Entry {
         System.out.println(prefix + "/" + this);
         Iterator it = directory.iterator();
         while (it.hasNext()) {
-            Composite.Sample.Entry entry = (Entry)it.next();
+            Entry entry = (Entry)it.next();
             entry.printList(prefix + "/" + name);
         }
     }

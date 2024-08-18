@@ -1,7 +1,5 @@
 package Decorator.A2;
 
-import Decorator.Sample.Border;
-import Decorator.Sample.Display;
 
 public class SideBorder extends Border {
     private char borderChar;                        // 表示装饰边框的文字

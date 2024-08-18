@@ -1,7 +1,5 @@
 package Decorator.A2;
 
-import Decorator.Sample.Border;
-import Decorator.Sample.Display;
 
 public class FullBorder extends Border {
     public FullBorder(Display display) {

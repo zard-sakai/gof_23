@@ -1,8 +1,5 @@
 package Decorator.A1;
 
-import Decorator.A2.Border;
-import Decorator.A2.Display;
-
 public class UpDownBorder extends Border {
     private char borderChar;                         // 表示装饰边框的字符 
     public UpDownBorder(Display display, char ch) {  // 通过构造函数指定Display和装饰边框字符
