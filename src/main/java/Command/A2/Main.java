@@ -1,7 +1,9 @@
 package Command.A2;
 
-import command.*;
-import drawer.*;
+import Command.A2.command.Command;
+import Command.A2.command.MacroCommand;
+import Command.A2.drawer.DrawCanvas;
+import Command.A2.drawer.DrawCommand;
 
 import java.awt.*;
 import java.awt.event.*;

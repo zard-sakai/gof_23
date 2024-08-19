@@ -1,7 +1,10 @@
 package Command.A1;
 
-import command.*;
-import drawer.*;
+import Command.A1.command.Command;
+import Command.A1.command.MacroCommand;
+import Command.A1.drawer.ColorCommand;
+import Command.A1.drawer.DrawCanvas;
+import Command.A1.drawer.DrawCommand;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -53,7 +56,7 @@ public class Main extends JFrame implements ActionListener, MouseMotionListener,
             canvas.init();                                      
             canvas.repaint();
         } else if (e.getSource() == redButton) {                
-            Command cmd = new ColorCommand(canvas, Color.red);  
+            Command cmd = new ColorCommand(canvas, Color.red);
             history.append(cmd);                                
             cmd.execute();                                      
         } else if (e.getSource() == greenButton) {              

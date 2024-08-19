@@ -1,6 +1,7 @@
 package Command.A2.drawer;
 
-import command.*;
+
+import Command.A2.command.MacroCommand;
 
 import java.util.*;
 import java.awt.*;

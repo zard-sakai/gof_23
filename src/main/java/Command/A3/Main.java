@@ -1,7 +1,9 @@
 package Command.A3;
 
-import command.*;
-import drawer.*;
+import Command.A3.command.Command;
+import Command.A3.command.MacroCommand;
+import Command.A3.drawer.DrawCanvas;
+import Command.A3.drawer.DrawCommand;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -26,7 +28,7 @@ public class Main extends JFrame implements ActionListener {
         });                                                 
         canvas.addMouseMotionListener(new MouseMotionAdapter() {    
             public void mouseDragged(MouseEvent e) {                
-                Command cmd = new DrawCommand(canvas, e.getPoint());    
+                Command cmd = new DrawCommand(canvas, e.getPoint());
                 history.append(cmd);                                    
                 cmd.execute();                                          
             }                                                           

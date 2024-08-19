@@ -1,7 +1,9 @@
 package Command.Sample;
 
-import command.*;
-import drawer.*;
+import Command.Sample.command.Command;
+import Command.Sample.command.MacroCommand;
+import Command.Sample.drawer.DrawCanvas;
+import Command.Sample.drawer.DrawCommand;
 
 import java.awt.*;
 import java.awt.event.*;
