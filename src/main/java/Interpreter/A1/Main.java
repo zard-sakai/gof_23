@@ -1,7 +1,7 @@
 package Interpreter.A1;
 
-import language.InterpreterFacade;
-import turtle.TurtleCanvas;
+import Interpreter.A1.language.InterpreterFacade;
+import Interpreter.A1.turtle.TurtleCanvas;
 
 import java.util.*;
 import java.io.*;
